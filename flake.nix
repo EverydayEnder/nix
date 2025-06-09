@@ -2,7 +2,7 @@
   description = "Personal NixOS pentesting setup";
   
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+  nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
   };
   
   outputs = { self, nixpkgs }: {
@@ -124,7 +124,7 @@
             gcc gnumake nodejs go
           ];
           
-          system.stateVersion = "24.05";
+          system.stateVersion = "25.05";
         })
       ];
     };
