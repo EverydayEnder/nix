@@ -118,7 +118,7 @@
             netcat-gnu socat traceroute whois dig
             
             # Blue team
-            suricata zeek osquery
+            suricata osquery
             
             # Development
             gcc gnumake nodejs go
