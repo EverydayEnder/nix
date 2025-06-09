@@ -60,7 +60,7 @@ sudo mount /dev/disk/by-label/boot /mnt/boot
 # Clone the repo
 echo "📦 Cloning configuration..."
 rm -rf /tmp/nixos-config 2>/dev/null || true
-git clone https://github.com/EverydayEnder/pentesting-nixos.git /tmp/nixos-config
+git clone https://github.com/EverydayEnder/nix.git /tmp/nixos-config
 cd /tmp/nixos-config
 
 # Generate hardware config for this machine
