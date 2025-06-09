@@ -1,0 +1,16 @@
+# Hardware-specific files (don't share these)
+hardware-configuration.nix
+
+# Build outputs
+result
+result-*
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Personal files
+secrets/
+*.key
+*.pem
